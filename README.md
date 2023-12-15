@@ -1,12 +1,11 @@
 # Facebook-page-clone
-# Clone of Facebook Login Page
 
 This project is a clone of the Facebook login page, made for educational purposes and demonstration of HTML, CSS, and JavaScript skills. It does not actually authenticate users.
 
 
 ## Usage
 
-1. Visit the project website: [Clone of Facebook Login Page](https://www.example.com)
+1. Visit the project website: [Clone of Facebook Login Page](https://cloneoffacebook.netlify.app/)
 2. Enter your email or phone number and password.
 3. Click on the 'Log In' button.
 
