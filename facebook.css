@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(240, 242, 245);
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+.leftpart {
+    display: flex;
+    margin-top: 150px;
+    /* margin-left: 80px; */
+    flex-direction: column;
+}
+
+.rightpart {
+    padding: auto;
+    margin-top: 70px;
+    margin-right: 80px;
+}
+
+
+.Facebook_Logo img{
+    height: 47px;
+}
+
+.LoginBox {
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: auto;
+    position: relative;
+    /* Added position property */
+}
+.LoginBox {
+    
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Add this line to center the LoginBox */
+}
+
+
+.input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+}
+
+.LoginButton {
+    background-color: rgb(24, 119, 242);
+    font-weight: bold;
+    color: white;
+    font-size: 23px;
+    width: 100%;
+    height: 52px;
+    /* add shadow to the box */
+    box-shadow: -3px 3px 3px #808080;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-top: 20px;
+
+}
+
+.createnewaccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 164, 32);
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    width: 178px;
+    height: 50px;
+    /* Adjust the width to your preference */
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.line {
+    border-width: 1px;
+    border-bottom-style: solid;
+    width: 355px;
+    color: rgb(163, 158, 158);
+}
+
+.fbslogan h2{
+    font-family: Arial;
+    width: 500px;
+    font-weight: 100;
+    font-size :  24px;
+    justify-content: center;
+}
+
+.frgtpswd {
+    font-size: 14px;
+    ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.crtpg {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rectangle {
+    margin: -18px;
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    z-index: -1;
+    position: absolute;
+    /* Added position property */
+
+}
+@media (max-width :450px){
+    .all {
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftpart {
+        margin-top: 70px;
+        width: 350px;
+        align-items: center;
+    }
+    .rightpart {
+        width: 375px;
+        padding: auto;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .fbslogan h2{
+        text-align: center;
+        width: 350px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 950px) {
+    .all {
+        margin-top: 140px;
+        scale: 1.5;
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftpart {
+        margin-top: 70px;
+        align-items: center;
+    }
+    .rightpart {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .fbslogan h2{
+        text-align: center;
+        width: 350px;
+    }
+    
+}
+
+
+
